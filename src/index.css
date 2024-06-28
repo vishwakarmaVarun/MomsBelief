@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+
+.homebg{
+    height: 650px;
+    width: 100%;
+    background-color: #fff6cc;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.homeHeading{
+    font-family: math;
+}
+
+.programsBg{
+    border-radius:60% 96% 3% 4% / 2% 17% 4% 4% ;
+}
+
+.backgroundImage{
+    background-image: url('./assets/question-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.borderFooter {
+    border-radius: 64% 36% 27% 27% / 11% 7% 0% 0%;
+}
